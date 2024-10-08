@@ -1,6 +1,8 @@
 ﻿USE QUANLYBANHANG
 GO
-
+   
+--BAITAP3:
+   
 -- 2.	Tạo quan hệ SANPHAM1 chứa toàn bộ dữ liệu của quan hệ SANPHAM. Tạo quan hệ KHACHHANG1 chứa toàn bộ dữ liệu của quan hệ KHACHHANG.
 SELECT * INTO SANPHAM1 FROM SANPHAM
 SELECT * INTO KHACHHANG1 FROM KHACHHANG
