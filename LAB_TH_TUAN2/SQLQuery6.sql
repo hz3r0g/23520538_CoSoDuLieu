@@ -1,6 +1,8 @@
 ﻿USE QUANLYGIAOVU
 GO
 
+--BAITAP6:
+
 -- 1.	In ra danh sách (mã học viên, họ tên, ngày sinh, mã lớp) lớp trưởng của các lớp.
 SELECT HV.MAHV, HO + ' ' + TEN AS HOTEN, NGSINH, HV.MALOP 
 FROM HOCVIEN HV INNER JOIN LOP 
