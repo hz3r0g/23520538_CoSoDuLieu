@@ -1,6 +1,8 @@
 ﻿USE QUANLYBANHANG
 GO
-
+	 
+--BAITAP5:
+	 
 -- 1.	In ra danh sách các sản phẩm (MASP,TENSP) do “Trung Quoc” sản xuất.
 SELECT MASP, TENSP FROM SANPHAM 
 WHERE NUOCSX = 'Trung Quoc'
